@@ -80,14 +80,14 @@ ul li{
 ul li::before{
     content: '';
     position: absolute;
-    height: 28px;
-    width: 28px;
+    height: 32px;
+    width: 32px;
     border-radius: 50%;
     background-image: url(unchecked.png);
     background-size: cover;
     background-position: center;
-    top: 12px;
-    left: 8px;
+    top: 10px;
+    left: 5px;
 
 }
 
@@ -140,5 +140,6 @@ ul li span:hover{
     transition: 0.3s ease;
     color: #2fe5f1;
 }
+
 
 
